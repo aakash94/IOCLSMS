@@ -18,9 +18,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="IOCL ACK"
+            android:text="IOCL "
             android:id="@+id/textViews"
             />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="center_horizontal"/>
 
         <EditText
             android:layout_width="wrap_content"
